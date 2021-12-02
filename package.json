@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "ts-node": "10.2.1",
+    "@types/node": "^16.11.6"
+  },
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "build": "tsc -p ."
+  }
+}
